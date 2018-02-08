@@ -1,0 +1,7 @@
+aymen_first_homepage:
+    path:     /
+    defaults: { _controller: AymenFirstBundle:Default:index }
+
+aymen_first_hello:
+    path:     /hello/{nom}
+    defaults: { _controller: AymenFirstBundle:Default:hello }

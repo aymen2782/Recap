@@ -1,3 +1,7 @@
+aymen_first:
+    resource: "@AymenFirstBundle/Resources/config/routing.yml"
+    prefix:   /first
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
